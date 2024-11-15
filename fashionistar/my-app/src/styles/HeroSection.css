@@ -1,0 +1,10 @@
+:root {
+    --hero-background: url('../assets/images/solanda.png'); /* Replace with your image path */
+  }
+  
+  .bg-hero-bg {
+    background-image: var(--hero-background);
+    background-size: cover;
+    background-position: center;
+  }
+  
