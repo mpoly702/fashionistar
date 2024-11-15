@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template, redirect, url_for, f
 from flask_bcrypt import Bcrypt
 # from flask_login import login_required, login_user, current_user, logout_user
 from flask_session import Session
-from backend import create_app
+from back import create_app
 # from .models import create_user, get_user, User
 # from .login_manager_setup import login_manager
 from flask_cors import CORS
